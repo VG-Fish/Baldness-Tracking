@@ -117,7 +117,7 @@ if floating_button("Show all images"):
             st.image(
                 image,
                 width="stretch",
-                caption=f"Date taken: {date.partition('    ')[0]}",
+                caption=f"Date taken: {date.partition(' ')[0]}",
             )
 
 rain(
