@@ -1,0 +1,21 @@
+[project]
+name = "baldness-tracker"
+version = "0.1.0"
+description = "Streamlit app to track baldness with webcam snapshots"
+requires-python = ">=3.13"
+authors = [
+  { name = "Vishwesswaran Gopal" }
+]
+
+dependencies = [
+  "streamlit",
+  "streamlit-webrtc",
+  "opencv-python-headless",
+  "av",
+  "numpy",
+  "streamlit-extras",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
